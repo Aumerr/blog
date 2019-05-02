@@ -1,0 +1,64 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #5e4175;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar_logo {
+max-width: 150px;
+}
+.navbar_title {
+    color: #fff;
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+
+.container {
+    width: 100%;
+    height: 80vh;
+    display: inline-flex;
+}
+
+.container_menu {
+    padding: 10px;
+    color: #fff;
+    width: 8rem;
+    max-width: 8rem;
+    background-color: #3b2e46;
+}
+.menu_title {
+    font-size: 2rem;
+}
+.menu_list {
+    list-style-type: disc;
+    margin-top: 2rem;
+}
+.container_content {
+    padding: 30px;
+    width: 100%;
+
+}
+.content_row {
+    display: inline-flex;
+    align-items: center;
+}
+.content_text {
+    max-width: 20rem;
+    align-items: center;
+
+}
+.content_title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.content_image {
+    margin-left: 3rem;
+}
